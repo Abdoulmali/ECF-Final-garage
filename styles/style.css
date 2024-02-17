@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-links a {
+  font-weight: bold;
+  color: black;
+  border: solid 1px 1px lightgrey;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.nav-links a:hover {
+  box-shadow: 4px 4px;
+  color: darkgrey;
+}
+
+.navbar img {
+  width: 150px;
+}
+
+.navbar .nav-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .nav-links ul li {
+  margin: 25px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_content {
+  height: 70vh;
+  width: 100vw;
+  background-image: url(../assets/img/photo_entretien.jpg);
+  background-size: cover;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section{
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100em;
+}
+
+section div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section h3{
+  padding: 20px;
+}
+
+section svg{
+  width: 50px;
+}
+
+section div:hover{
+  box-shadow: 4px 4px;
+  color: darkgrey;
+}
+
+
+
+footer {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px -5px grey;
+}
+
+#shedule_content span{
+text-align: center;
+}
